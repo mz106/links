@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container--flex {
+    display: flex;
+}
+
+.wrapper {
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+h1 {
+    margin: auto;
+}
+
+.content {
+    flex-direction: column;
+}
+
+ul {
+    flex-direction: column;
+}
